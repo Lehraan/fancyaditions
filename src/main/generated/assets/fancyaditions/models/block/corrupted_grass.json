@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "minecraft:block/dirt",
+    "up": "fancyaditions:block/corrupted_grass_top",
+    "north": "fancyaditions:block/corrupted_grass_side",
+    "south": "fancyaditions:block/corrupted_grass_side",
+    "west": "fancyaditions:block/corrupted_grass_side",
+    "east": "fancyaditions:block/corrupted_grass_side",
+    "particle": "fancyaditions:block/corrupted_grass_side"
+  }
+}

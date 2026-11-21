@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "fancyaditions:block/withered_pumpkin_top",
+    "up": "fancyaditions:block/withered_pumpkin_top",
+    "north": "fancyaditions:block/withered_pumpkin_side",
+    "south": "fancyaditions:block/withered_pumpkin_side",
+    "west": "fancyaditions:block/withered_pumpkin_side",
+    "east": "fancyaditions:block/withered_pumpkin_side",
+    "particle": "fancyaditions:block/withered_pumpkin_side"
+  }
+}

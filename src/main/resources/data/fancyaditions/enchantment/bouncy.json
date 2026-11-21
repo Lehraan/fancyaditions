@@ -1,0 +1,45 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.minecraft.bouncy"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.3,
+          "per_level_above_first": 0.8
+
+        },
+        "attribute": "minecraft:bounciness",
+        "id": "minecraft:enchantment.bouncy",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -1.0,
+          "per_level_above_first": 0
+        },
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "minecraft:enchantment.bouncy_no_fall",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1
+}

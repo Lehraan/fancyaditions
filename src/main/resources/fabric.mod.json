@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fancyaditions",
+	"version": "${version}",
+	"name": "Fancy Aditions",
+	"description": "Many crazy ideas",
+	"authors": [
+		"Lehraan"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fancyaditions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lehraan.fancyaditions.FancyAditions"
+		],
+		"fabric-datagen": [
+			"net.lehraan.fancyaditions.FancyAditionsDataGenerator"
+		],
+		"client": [
+			"net.lehraan.fancyaditions.FancyAditionsClient"
+		]
+	},
+	"mixins": [
+		"fancyaditions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

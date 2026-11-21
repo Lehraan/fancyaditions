@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "glass_jar",
+  "key": {
+    "G": "minecraft:glass"
+  },
+  "pattern": [
+    "   ",
+    "GG ",
+    "GG "
+  ],
+  "result": "fancyaditions:jar"
+}

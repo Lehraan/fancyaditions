@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "fancyaditions:block/carved_pumpkin_creeper",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fancyaditions:block/carved_pumpkin_creeper"
+    },
+    "facing=south": {
+      "model": "fancyaditions:block/carved_pumpkin_creeper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fancyaditions:block/carved_pumpkin_creeper",
+      "y": 270
+    }
+  }
+}
